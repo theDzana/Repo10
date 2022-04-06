@@ -16,13 +16,12 @@ function myFunction() {
             artist: "Red Hot Chili Peppers",
             title: "Californication",
             relase_year: 1999,
-            id: 100,
             formats: {
                 1: "CD",
                 2: "Vinyl",
                 3: "LP"
             },
-            gold: true
+            gold: false,
         },
     };
     return myMusic;
