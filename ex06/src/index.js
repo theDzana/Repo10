@@ -7,10 +7,11 @@ var lion = {
 // End of lion object 
 
 // Create a function below this line
-function myFunction(param1, param2) {
-    lion["roar"] = "roar-roar";
+function myFunction(roar, value) {
+    lion["roar"] = value;
     return lion;
 }
+myFunction("roar","roar-roar");
 console.log(myFunction("roar","roar-roar"));
 // End of function
 module.exports = myFunction;
