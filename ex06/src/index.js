@@ -8,10 +8,10 @@ var lion = {
 
 // Create a function below this line
 function myFunction(roar, value) {
-    lion["roar"] = value;
+    lion[roar] = value;
     return lion;
 }
-myFunction("roar","roar-roar");
-console.log(myFunction("roar","roar-roar"));
+myFunction("roar", "roar-roar");
+console.log(myFunction("roar", "roar-roar"));
 // End of function
 module.exports = myFunction;
